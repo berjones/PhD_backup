@@ -1,0 +1,184 @@
+asic_0_0_69: 
+FF_alpha_peak_energy = 3182.69
+Dead layer E-loss = 3091.24
+PHD = 3091.24
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5134.7
+Dead layer E-loss = 5081.03
+PHD = 5081.03
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5478.57
+Dead layer E-loss = 5428.02
+PHD = 5428.02
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5746.9
+PHD = 5746.9
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3091
+PHD = 3091
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3091
+PHD = 3091
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3091
+PHD = 3091
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3091
+PHD = 3091
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3091
+PHD = 3091
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3091
+PHD = 3091
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3093
+PHD = 3093
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3093
+PHD = 3093
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5135
+Dead layer E-loss = 5081
+PHD = 5081
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5479
+Dead layer E-loss = 5428
+PHD = 5428
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 5795
+Dead layer E-loss = 5747
+PHD = 5747
+
+asic_0_0_69: 
+FF_alpha_peak_energy = 3183
+Dead layer E-loss = 3093
+PHD = 3093

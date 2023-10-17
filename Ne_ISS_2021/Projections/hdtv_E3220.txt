@@ -1,0 +1,80 @@
+WorkFit on spectrum: 11 (row3_0)
+ id  stat  chi  channel     pos     vol    width  
+━━━━──────────────────────────────────────────────
+ .0    AV    5  210.5(4)  3210(8)  62(9)  122(16) 
+
+WorkFit on spectrum: 12 (row3_1)
+ id  stat  chi   channel        pos        vol     width  
+━━━━──────────────────────────────────────────────────────
+ .0    AV   33    211.4(4)      3229(8)  124(12)  157(17) 
+
+
+WorkFit on spectrum: 13 (row3_2)
+ id  stat  chi   channel      pos     vol    width 
+━━━━───────────────────────────────────────────────
+ .0    AV   87  211.59(35)  3232(7)  95(12)  96(8) 
+
+WorkFit on spectrum: 14 (row3_3)
+ id  stat  chi   channel      pos      vol    width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   24  212.28(24)  3246(5)  200(15)  132(8) 
+
+WorkFit on spectrum: 15 (row3_4)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   40  212.2(4)   3243(7)  168(15)  143(11) 
+
+WorkFit on spectrum: 16 (row3_5)
+ id  stat  chi   channel      pos      vol    width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   88  212.46(29)  3249(6)  176(14)  146(8) 
+
+WorkFit on spectrum: 17 (row3_6)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   99  213.0(6)  3261(11)  102(13)  154(14) 
+
+WorkFit on spectrum: 18 (row3_7)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV  148  213.3(7)  3266(15)   82(14)  167(15) 
+
+WorkFit on spectrum: 19 (row4_0)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV  150  210.6(6)  3212(12)   66(10)  139(11) 
+
+WorkFit on spectrum: 20 (row4_1)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV  249  209.6(7)  3191(13)    44(8)  136(11) 
+
+WorkFit on spectrum: 21 (row4_2)
+ id  stat  chi   channel      pos       vol     width  
+━━━━───────────────────────────────────────────────────
+ .0    AV   26  211.2(1.1)  3224(23)    35(8)  149(18) 
+
+WorkFit on spectrum: 22 (row4_3)
+ id  stat  chi   channel      pos     vol    width  
+━━━━────────────────────────────────────────────────
+ .0    AV   51    209.4(5)  3188(9)   36(8)  97(12) 
+
+WorkFit on spectrum: 23 (row4_4)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   41  207.9(1.1)  3157(22)   20(7)  114(18) 
+
+WorkFit on spectrum: 24 (row4_5)
+ id  stat  chi  channel     pos      vol     width  
+━━━━────────────────────────────────────────────────
+ .0    AV   34  208.1(9)  3163(18)  65(11)  187(25) 
+
+WorkFit on spectrum: 25 (row4_6)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   41    209.7(9)  3194(17)  76(12)  183(21) 
+
+WorkFit on spectrum: 26 (row4_7)
+ id  stat  chi   channel        pos       vol      width    
+━━━━────────────────────────────────────────────────────────
+ .0    AV   34  212.3(2.0)  3250(9)  83(27)  2.2(4)e+02 

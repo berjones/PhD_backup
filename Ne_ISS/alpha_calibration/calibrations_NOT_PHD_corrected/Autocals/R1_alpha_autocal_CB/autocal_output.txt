@@ -1,0 +1,513 @@
+brj_ubu@PavillionBRJ:~/Ne_ISS/calibrations/Autocals/R1_alpha_autocal_CB_2$ iss_sort -autocal -autocalfile ../../autocal.dat -i /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_? /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_?? -s ../../settings_22Ne_20220715.dat -r ../../reaction_22Ne_20220715.dat -f -e
+Autocal file: ../../autocal.dat
+Settings file: ../../settings_22Ne_20220715.dat
+No calibration file provided. Using defaults.
+Reaction file: ../../reaction_22Ne_20220715.dat
+
+ +++  Alpha Source Run  +++
+ +++ ISS Analysis:: processing Converter +++
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_0 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_0_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_0 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_1 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_1_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_1 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_2 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_2_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_2 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_3 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_3_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_3 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_4 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_4_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_4 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_5 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_5_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_5 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_6 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_6_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_6 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_7 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_7_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_7 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_8 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_8_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_8 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_9 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_9_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_9 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_10 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_10_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_10 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_11 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_11_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_11 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_12 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_12_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_12 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_13 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_13_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_13 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_14 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_14_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_14 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_15 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_15_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_15 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_16 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_16_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_16 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_17 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_17_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_17 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_18 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_18_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_18 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_19 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_19_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_19 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_20 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_20_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_20 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_21 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_21_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_21 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_22 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_22_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_22 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_23 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_23_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_23 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_24 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_24_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_24 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_25 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_25_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_25 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_26 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_26_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_26 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_27 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_27_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_27 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_28 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_28_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_28 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_29 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_29_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_29 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_30 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_30_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_30 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_31 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_31_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_31 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_32 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_32_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_32 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_33 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_33_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_33 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_34 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_34_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_34 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_35 --> /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_35_source.root
+Converting file: /mnt/wsl/PHYSICALDRIVE1p1/Ne_ISS/data/R1_35 from block 0
+         File size = 88604672
+        Block size = 65536
+          N blocks = 1352
+
+      100%
+ Writing data and closing the file
+
+ +++ ISS Analysis:: processing AutoCalibration +++
+Warning in <TClass::Init>: no dictionary for class ISSDataPackets is available
+Warning in <TClass::Init>: no dictionary for class ISSAsicData is available
+Warning in <TClass::Init>: no dictionary for class ISSCaenData is available
+Warning in <TClass::Init>: no dictionary for class ISSInfoData is available
+asic_0_1_22has 2 peaks!
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+Fit warning on module 0, asic 1, channel 22: peaks 0 and 1 are quite close together
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+Fit warning on module 0, asic 1, channel 22: peaks 1 and 2 are quite close together
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+Fit warning on module 0, asic 1, channel 22: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+asic_0_1_100has 2 peaks!
+Fit warning on module 0, asic 1, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 0, asic 1, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 0, asic 1, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 1, channel 108: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 3, channel 48: Flat bg    at lower limit, 0 (actual value = 1.503e-09)
+Fit    fail on module 0, asic 3, channel 48: fit did not converge
+Fit warning on module 0, asic 3, channel 55: Flat bg    at lower limit, 0 (actual value = 2.098e-08)
+Fit    fail on module 0, asic 3, channel 55: fit did not converge
+asic_0_4_117has 2 peaks!
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit warning on module 0, asic 4, channel 117: peaks 0 and 1 are quite close together
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit warning on module 0, asic 4, channel 117: peaks 1 and 2 are quite close together
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit warning on module 0, asic 4, channel 117: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit warning on module 1, asic 3, channel 42: Flat bg    at lower limit, 0 (actual value = 1.035e-07)
+Fit    fail on module 1, asic 3, channel 42: fit did not converge
+asic_1_4_22has 2 peaks!
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+Fit warning on module 1, asic 4, channel 22: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+Fit warning on module 1, asic 4, channel 22: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+Fit warning on module 1, asic 4, channel 22: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+asic_1_4_100has 2 peaks!
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+Fit warning on module 1, asic 4, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+Fit warning on module 1, asic 4, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+Fit warning on module 1, asic 4, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+asic_1_4_117has 2 peaks!
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+Fit warning on module 1, asic 4, channel 117: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+Fit warning on module 1, asic 4, channel 117: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+Fit warning on module 1, asic 4, channel 117: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+asic_1_5_8has 1 peaks!
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+Fit warning on module 1, asic 5, channel 8: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+Fit warning on module 1, asic 5, channel 8: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+Fit warning on module 1, asic 5, channel 8: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+asic_1_5_21has 1 peaks!
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+Fit warning on module 1, asic 5, channel 21: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+Fit warning on module 1, asic 5, channel 21: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+Fit warning on module 1, asic 5, channel 21: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+asic_1_5_32has 2 peaks!
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+Fit warning on module 1, asic 5, channel 32: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+Fit warning on module 1, asic 5, channel 32: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+Fit warning on module 1, asic 5, channel 32: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+asic_1_5_46has 2 peaks!
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+Fit warning on module 1, asic 5, channel 46: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+Fit warning on module 1, asic 5, channel 46: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+Fit warning on module 1, asic 5, channel 46: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+asic_1_5_59has 2 peaks!
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+Fit warning on module 1, asic 5, channel 59: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+Fit warning on module 1, asic 5, channel 59: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+Fit warning on module 1, asic 5, channel 59: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+asic_1_5_86has 2 peaks!
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 86: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 86: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 86: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 121: peaks not above threshold
+Fit warning on module 1, asic 5, channel 123: peaks not above threshold
+Fit warning on module 1, asic 5, channel 124: peaks not above threshold
+Fit warning on module 1, asic 5, channel 125: peaks not above threshold
+Fit warning on module 1, asic 5, channel 126: peaks not above threshold
+Fit warning on module 1, asic 5, channel 127: peaks not above threshold
+asic_2_0_50has 1 peaks!
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+Fit warning on module 2, asic 0, channel 50: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+Fit warning on module 2, asic 0, channel 50: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+Fit warning on module 2, asic 0, channel 50: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+asic_2_0_84has 2 peaks!
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+Fit warning on module 2, asic 0, channel 84: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+Fit warning on module 2, asic 0, channel 84: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+Fit warning on module 2, asic 0, channel 84: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+asic_2_1_39has 2 peaks!
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+Fit warning on module 2, asic 1, channel 39: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+Fit warning on module 2, asic 1, channel 39: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+Fit warning on module 2, asic 1, channel 39: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+asic_2_1_100has 2 peaks!
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+Fit warning on module 2, asic 1, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+Fit warning on module 2, asic 1, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+Fit warning on module 2, asic 1, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+asic_2_1_117has 2 peaks!
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+Fit warning on module 2, asic 1, channel 117: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+Fit warning on module 2, asic 1, channel 117: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+Fit warning on module 2, asic 1, channel 117: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+asic_2_3_3has 2 peaks!
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+Fit warning on module 2, asic 3, channel 3: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+Fit warning on module 2, asic 3, channel 3: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+Fit warning on module 2, asic 3, channel 3: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+asic_2_3_56has 2 peaks!
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+Fit warning on module 2, asic 3, channel 56: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+Fit warning on module 2, asic 3, channel 56: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+Fit warning on module 2, asic 3, channel 56: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+asic_2_4_22has 2 peaks!
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+Fit warning on module 2, asic 4, channel 22: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+Fit warning on module 2, asic 4, channel 22: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+Fit warning on module 2, asic 4, channel 22: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+asic_2_4_39has 2 peaks!
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+Fit warning on module 2, asic 4, channel 39: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+Fit warning on module 2, asic 4, channel 39: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+Fit warning on module 2, asic 4, channel 39: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+asic_2_4_100has 2 peaks!
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 4, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 4, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 4, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 5, channel 18: Flat bg    at lower limit, 0 (actual value = 3.46e-11)
+Fit    fail on module 2, asic 5, channel 18: fit did not converge
+Fit warning on module 2, asic 5, channel 23: Flat bg    at lower limit, 0 (actual value = 1.534e-07)
+Fit    fail on module 2, asic 5, channel 23: fit did not converge
+Fit warning on module 2, asic 5, channel 116: peaks not above threshold
+Fit warning on module 2, asic 5, channel 117: peaks not above threshold
+Fit warning on module 2, asic 5, channel 118: peaks not above threshold
+asic_2_5_126has 2 peaks!
+Fit warning on module 2, asic 5, channel 126: peaks not above threshold
+Fit warning on module 2, asic 5, channel 126: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 5, channel 126: peaks not above threshold
+Fit warning on module 2, asic 5, channel 126: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 5, channel 126: peaks not above threshold
+Fit warning on module 2, asic 5, channel 126: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 5, channel 126: peaks not above threshold
+asic_2_5_127has 2 peaks!
+Fit warning on module 2, asic 5, channel 127: peaks not above threshold
+Fit warning on module 2, asic 5, channel 127: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 5, channel 127: peaks not above threshold
+Fit warning on module 2, asic 5, channel 127: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 5, channel 127: peaks not above threshold
+Fit warning on module 2, asic 5, channel 127: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 5, channel 127: peaks not above threshold
+ 99.96 %    
+
+Finished!

@@ -1,0 +1,354 @@
+ +++ ISS Analysis:: processing AutoCalibration +++
+Warning in <TClass::Init>: no dictionary for class ISSDataPackets is available
+Warning in <TClass::Init>: no dictionary for class ISSAsicData is available
+Warning in <TClass::Init>: no dictionary for class ISSCaenData is available
+Warning in <TClass::Init>: no dictionary for class ISSInfoData is available
+asic_0_1_28 : fit warning -> peak width 10.594292 > 10.000000 channels in this spectrum
+asic_0_1_29 : fit warning -> peak width 10.690057 > 10.000000 channels in this spectrum
+asic_0_1_33 : fit warning -> peak width 10.578207 > 10.000000 channels in this spectrum
+asic_0_1_34 : fit warning -> peak width 10.414256 > 10.000000 channels in this spectrum
+asic_0_1_35 : fit warning -> peak width 11.283557 > 10.000000 channels in this spectrum
+asic_0_1_36 : fit warning -> peak width 10.923239 > 10.000000 channels in this spectrum
+asic_0_1_37 : fit warning -> peak width 10.312497 > 10.000000 channels in this spectrum
+asic_0_1_38 : fit warning -> peak width 12.217424 > 10.000000 channels in this spectrum
+asic_0_1_89 : fit warning -> peak width 10.456225 > 10.000000 channels in this spectrum
+asic_0_4_11 : fit warning -> at lower limit   0.0000 (actual value =   0.0000)
+            : fit warning -> at lower limit   1.8000 (actual value =   1.8000)
+            : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.236439 > 10.000000 channels in this spectrum
+            : FIT FAILURE -> fit did not converge
+asic_0_4_12 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_13 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 20.782945 > 10.000000 channels in this spectrum
+asic_0_4_14 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_15 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.286660 > 10.000000 channels in this spectrum
+asic_0_4_16 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 18.849081 > 10.000000 channels in this spectrum
+asic_0_4_17 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_18 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_19 : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_20 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_21 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_28 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : FIT FAILURE -> fit did not converge
+asic_0_4_29 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_30 : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_31 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_32 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 21.204185 > 10.000000 channels in this spectrum
+asic_0_4_33 : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 22.158956 > 10.000000 channels in this spectrum
+asic_0_4_34 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_35 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_36 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_37 : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_38 : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_63 : fit warning -> peaks not above threshold
+asic_0_4_89 : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_90 : fit warning -> at upper limit  10.0000 (actual value =  10.0000)
+            : fit warning -> at lower limit   5.0000 (actual value =   5.0000)
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peak width 23.548192 > 10.000000 channels in this spectrum
+            : FIT FAILURE -> fit did not converge
+asic_0_4_91 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_92 : fit warning -> at lower limit   0.0000 (actual value =   0.0000)
+            : fit warning -> at lower limit   2.8000 (actual value =   2.8000)
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peak width 23.050101 > 10.000000 channels in this spectrum
+            : FIT FAILURE -> fit did not converge
+asic_0_4_93 : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_94 : fit warning -> at upper limit  10.0000 (actual value =  10.0000)
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+            : FIT FAILURE -> fit did not converge
+asic_0_4_95 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 22.755125 > 10.000000 channels in this spectrum
+asic_0_4_96 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_97 : fit warning -> peaks 2 and 3 are quite close together
+            : FIT FAILURE -> fit did not converge
+asic_0_4_98 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_99 : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_106: fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_107: fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_108: fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_109: fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_110: fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_111: fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_112: fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_113: fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_115: fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_4_116: fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_0_5_46has 0 peaks!
+asic_0_5_46 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> chi-squared value very large (877743.411385)
+asic_0_5_113: fit warning -> peaks not above threshold
+asic_0_5_116: fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+asic_0_5_118: fit warning -> peaks not above threshold
+asic_0_5_119: fit warning -> peaks not above threshold
+asic_0_5_123: fit warning -> peaks not above threshold
+asic_0_5_125: fit warning -> peaks not above threshold
+asic_0_5_126: fit warning -> peaks not above threshold
+asic_0_5_127: fit warning -> peaks not above threshold
+asic_1_1_11 : FIT FAILURE -> empty or has too few counts
+asic_1_1_12 : FIT FAILURE -> empty or has too few counts
+asic_1_1_13 : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 18.917961 > 10.000000 channels in this spectrum
+asic_1_1_14 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 18.223602 > 10.000000 channels in this spectrum
+asic_1_1_15 : FIT FAILURE -> empty or has too few counts
+asic_1_1_16 : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 16.566358 > 10.000000 channels in this spectrum
+asic_1_1_17 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 15.634174 > 10.000000 channels in this spectrum
+asic_1_1_18 : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 22.452184 > 10.000000 channels in this spectrum
+asic_1_1_19 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_1_1_20 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 20.767000 > 10.000000 channels in this spectrum
+asic_1_1_21 : fit warning -> at lower limit   0.0000 (actual value =   0.0000)
+            : fit warning -> at upper limit  10.0000 (actual value =  10.0000)
+            : fit warning -> at lower limit  11.4000 (actual value =  11.4000)
+            : fit warning -> at upper limit  82.0000 (actual value =  82.0000)
+            : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+            : FIT FAILURE -> fit did not converge
+asic_1_1_28 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 19.548895 > 10.000000 channels in this spectrum
+asic_1_1_29 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 17.166210 > 10.000000 channels in this spectrum
+asic_1_1_30 : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 22.102008 > 10.000000 channels in this spectrum
+asic_1_1_31 : FIT FAILURE -> empty or has too few counts
+asic_1_1_32 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 15.755368 > 10.000000 channels in this spectrum
+asic_1_1_33 : FIT FAILURE -> empty or has too few counts
+asic_1_1_34 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 20.561257 > 10.000000 channels in this spectrum
+asic_1_1_35 : FIT FAILURE -> empty or has too few counts
+asic_1_1_36 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_1_1_37 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_1_1_38 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_1_1_89 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 17.604857 > 10.000000 channels in this spectrum
+asic_1_1_90 : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_1_1_91 : fit warning -> peaks not above threshold
+            : fit warning -> peak width 22.231747 > 10.000000 channels in this spectrum
+asic_1_1_92 : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.518571 > 10.000000 channels in this spectrum
+asic_1_1_93 : FIT FAILURE -> empty or has too few counts
+asic_1_1_94 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 22.717670 > 10.000000 channels in this spectrum
+asic_1_1_95 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 20.834927 > 10.000000 channels in this spectrum
+asic_1_1_96 : FIT FAILURE -> empty or has too few counts
+asic_1_1_97 : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 22.309099 > 10.000000 channels in this spectrum
+asic_1_1_98 : fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 23.009342 > 10.000000 channels in this spectrum
+asic_1_1_99 : FIT FAILURE -> empty or has too few counts
+asic_1_1_106: fit warning -> peaks not above threshold
+            : fit warning -> peak width 16.560098 > 10.000000 channels in this spectrum
+asic_1_1_107: fit warning -> peaks not above threshold
+            : fit warning -> peak width 17.547170 > 10.000000 channels in this spectrum
+asic_1_1_108: fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_1_1_109: fit warning -> peaks not above threshold
+            : fit warning -> peak width 12.542084 > 10.000000 channels in this spectrum
+asic_1_1_110: fit warning -> peaks not above threshold
+            : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 16.463507 > 10.000000 channels in this spectrum
+asic_1_1_111: fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 14.343843 > 10.000000 channels in this spectrum
+            : FIT FAILURE -> fit did not converge
+asic_1_1_112: fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_1_1_113: FIT FAILURE -> empty or has too few counts
+asic_1_1_114: fit warning -> peaks not above threshold
+            : fit warning -> peaks not above threshold
+            : fit warning -> peak width 16.041903 > 10.000000 channels in this spectrum
+asic_1_1_115: fit warning -> peaks not above threshold
+            : fit warning -> peak width 21.547299 > 10.000000 channels in this spectrum
+asic_1_1_116: FIT FAILURE -> empty or has too few counts
+asic_1_3_65 : fit warning -> peaks 2 and 3 are quite close together
+asic_1_4_38 : fit warning -> peak width 10.656366 > 10.000000 channels in this spectrum
+asic_1_4_89 : fit warning -> peak width 10.535388 > 10.000000 channels in this spectrum
+asic_1_5_103: fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+asic_1_5_112: fit warning -> peaks not above threshold
+asic_1_5_114: fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+asic_1_5_120: fit warning -> peaks not above threshold
+asic_1_5_121: fit warning -> peaks not above threshold
+asic_1_5_122: fit warning -> peaks not above threshold
+asic_1_5_123: fit warning -> peaks not above threshold
+asic_1_5_125: fit warning -> peaks not above threshold
+asic_1_5_127: fit warning -> peaks not above threshold
+asic_2_1_21 : fit warning -> peak width 11.337082 > 10.000000 channels in this spectrum
+asic_2_1_28 : fit warning -> peak width 17.520963 > 10.000000 channels in this spectrum
+asic_2_1_29 : fit warning -> peak width 14.238682 > 10.000000 channels in this spectrum
+asic_2_1_30 : fit warning -> peak width 14.512667 > 10.000000 channels in this spectrum
+asic_2_1_31 : fit warning -> peak width 14.014609 > 10.000000 channels in this spectrum
+asic_2_1_32 : fit warning -> peak width 13.942995 > 10.000000 channels in this spectrum
+asic_2_1_33 : fit warning -> peak width 13.863084 > 10.000000 channels in this spectrum
+asic_2_1_34 : fit warning -> peak width 14.645126 > 10.000000 channels in this spectrum
+asic_2_1_35 : fit warning -> peak width 14.957281 > 10.000000 channels in this spectrum
+asic_2_1_36 : fit warning -> peak width 15.707182 > 10.000000 channels in this spectrum
+asic_2_1_37 : fit warning -> peak width 15.168731 > 10.000000 channels in this spectrum
+asic_2_1_38 : fit warning -> peak width 19.966553 > 10.000000 channels in this spectrum
+asic_2_1_89 : fit warning -> peak width 15.203741 > 10.000000 channels in this spectrum
+asic_2_1_90 : fit warning -> peak width 13.735279 > 10.000000 channels in this spectrum
+asic_2_1_91 : fit warning -> peak width 12.180259 > 10.000000 channels in this spectrum
+asic_2_1_92 : fit warning -> peak width 12.669844 > 10.000000 channels in this spectrum
+asic_2_1_93 : fit warning -> peak width 12.321616 > 10.000000 channels in this spectrum
+asic_2_1_94 : fit warning -> peak width 12.059113 > 10.000000 channels in this spectrum
+asic_2_1_95 : fit warning -> peak width 11.839239 > 10.000000 channels in this spectrum
+asic_2_1_96 : fit warning -> peak width 12.059341 > 10.000000 channels in this spectrum
+asic_2_1_97 : fit warning -> peak width 12.219262 > 10.000000 channels in this spectrum
+asic_2_1_98 : fit warning -> peak width 12.435938 > 10.000000 channels in this spectrum
+asic_2_1_99 : fit warning -> peak width 14.427899 > 10.000000 channels in this spectrum
+asic_2_1_106: fit warning -> peak width 10.482909 > 10.000000 channels in this spectrum
+asic_2_4_21 : fit warning -> peak width 10.395074 > 10.000000 channels in this spectrum
+asic_2_4_28 : fit warning -> peak width 14.969905 > 10.000000 channels in this spectrum
+asic_2_4_29 : fit warning -> peak width 13.519724 > 10.000000 channels in this spectrum
+asic_2_4_30 : fit warning -> peak width 14.146767 > 10.000000 channels in this spectrum
+asic_2_4_31 : fit warning -> peak width 13.656338 > 10.000000 channels in this spectrum
+asic_2_4_32 : fit warning -> peak width 14.277672 > 10.000000 channels in this spectrum
+asic_2_4_33 : fit warning -> peak width 14.605181 > 10.000000 channels in this spectrum
+asic_2_4_34 : fit warning -> peak width 13.802330 > 10.000000 channels in this spectrum
+asic_2_4_35 : fit warning -> peak width 13.340403 > 10.000000 channels in this spectrum
+asic_2_4_36 : fit warning -> peak width 14.562804 > 10.000000 channels in this spectrum
+asic_2_4_37 : fit warning -> peak width 14.049893 > 10.000000 channels in this spectrum
+asic_2_4_38 : fit warning -> peak width 14.819685 > 10.000000 channels in this spectrum
+asic_2_4_63has 0 peaks!
+asic_2_4_63 : fit warning -> peaks not above threshold
+            : fit warning -> peaks 0 and 1 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks not above threshold
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peaks not above threshold
+asic_2_4_89 : fit warning -> peak width 16.337906 > 10.000000 channels in this spectrum
+asic_2_4_90 : fit warning -> peak width 14.668489 > 10.000000 channels in this spectrum
+asic_2_4_91 : fit warning -> peak width 13.202915 > 10.000000 channels in this spectrum
+asic_2_4_92 : fit warning -> peak width 13.050133 > 10.000000 channels in this spectrum
+asic_2_4_93 : fit warning -> peak width 13.974230 > 10.000000 channels in this spectrum
+asic_2_4_94 : fit warning -> peak width 12.690804 > 10.000000 channels in this spectrum
+asic_2_4_95 : fit warning -> peak width 12.613030 > 10.000000 channels in this spectrum
+asic_2_4_96 : fit warning -> peak width 14.129912 > 10.000000 channels in this spectrum
+asic_2_4_97 : fit warning -> peak width 13.572328 > 10.000000 channels in this spectrum
+asic_2_4_98 : fit warning -> peak width 13.911758 > 10.000000 channels in this spectrum
+asic_2_4_99 : fit warning -> peak width 15.362907 > 10.000000 channels in this spectrum
+asic_2_4_106: fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 20.826833 > 10.000000 channels in this spectrum
+asic_2_4_116: fit warning -> peaks 1 and 2 are quite close together
+            : fit warning -> peaks 2 and 3 are quite close together
+            : fit warning -> peak width 23.548200 > 10.000000 channels in this spectrum
+asic_2_5_123: fit warning -> peaks 1 and 2 are quite close together
+ 99.96 %    
+
+Finished!

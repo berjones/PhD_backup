@@ -1,0 +1,154 @@
+ FCN=41.5878 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=5.9077e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.78300e+02   8.33999e+00   2.12297e-02   4.22078e-05
+   2  p1           8.40278e+01   1.66690e+00   5.25154e-03  -2.37235e-05
+   3  p2           8.28559e+01   1.49954e+00   3.56015e-03   1.36968e-04
+   4  p3           4.28998e+01   1.11239e+00   3.06617e-03   2.18143e-04
+   5  p4           1.99452e-02   2.58372e-03   7.72881e-06  -6.06926e-02
+ FCN=33.9928 FROM MIGRAD    STATUS=CONVERGED     175 CALLS         176 TOTAL
+                     EDM=2.51476e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.4 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           5.99949e+02   1.07633e+01  -1.91840e-03  -5.45721e-06
+   2  p1           1.09465e+03   1.27397e+00   6.43464e-04   4.47071e-05
+   3  p2           7.62205e+01   1.19607e+00  -1.69089e-04  -8.10126e-05
+   4  p3           3.10814e+01   5.93126e+00   4.78776e-04  -3.60521e-05
+   5  p4           2.74177e-02   6.66103e-03  -1.39879e-06  -3.68009e-02
+ FCN=21.147 FROM MIGRAD    STATUS=CONVERGED     300 CALLS         301 TOTAL
+                     EDM=6.93924e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           3.93781e+01   5.79683e+00   1.04760e-02   6.33856e-05
+   2  p1           1.87138e+03   8.89385e+00   1.80717e-02  -6.77455e-05
+   3  p2           5.09261e+01   8.83091e+00   1.34616e-02  -6.66811e-05
+   4  p3           3.03797e+01   1.83185e+01   3.59057e-03  -3.45997e-04
+   5  p4           1.72072e-02   1.03747e-02   1.97911e-06  -6.23667e-01
+ FCN=29.5315 FROM MIGRAD    STATUS=CONVERGED     234 CALLS         235 TOTAL
+                     EDM=1.14935e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.91375e+02   7.95617e+00   1.69010e-02   4.29492e-07
+   2  p1           2.38618e+03   2.60966e+00   6.68321e-03  -3.30239e-05
+   3  p2           6.23512e+01   2.69550e+00   4.89935e-03  -3.19778e-05
+   4  p3          -8.65125e+00   1.94711e+01   4.41262e-03  -6.22230e-05
+   5  p4           3.28840e-02   8.64062e-03   1.91779e-06  -1.40672e-01
+ FCN=31.7433 FROM MIGRAD    STATUS=CONVERGED     455 CALLS         456 TOTAL
+                     EDM=7.26415e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.30924e+02   1.43168e+01   3.03416e-02   3.51997e-07
+   2  p1           3.28024e+03   1.36085e+00   3.04502e-03   7.65798e-06
+   3  p2           5.38104e+01   1.17911e+00   2.10806e-03   1.77516e-05
+   4  p3           6.14079e+02   1.42216e+01   2.81052e-02  -3.88434e-06
+   5  p4           3.49425e+03   1.50878e+00   3.38846e-03   9.29627e-06
+   6  p5           6.24705e+01   2.04965e+00   2.49786e-03   3.87747e-05
+   7  p6          -9.20027e+01   6.55099e+01   5.77584e-03   2.35234e-05
+   8  p7           5.15059e-02   2.14125e-02   1.82102e-06   7.70778e-02
+ FCN=21.1554 FROM HESSE     STATUS=NOT POSDEF     61 CALLS        1054 TOTAL
+                     EDM=1.04967e-06    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           6.24479e+02   2.59044e+01   7.21709e-03   4.28586e-05
+   2  p1           4.05543e+03   1.49789e+00   9.66889e-04  -2.36992e-04
+   3  p2           4.32854e+01   1.80342e+00   4.47709e-04   1.73713e-04
+   4  p3           1.03951e+03   1.49592e+01   2.69419e-03   7.96974e-05
+   5  p4           4.09823e+03   3.95315e+00   9.77094e-04  -3.01504e-04
+   6  p5           1.80046e+02   5.74379e+00   4.14103e-04   5.05124e-04
+   7  p6           5.71363e+03   2.88940e+01   1.36223e-03   2.89413e-04
+   8  p7          -1.54002e+00   7.96572e-03   3.67169e-07   1.09083e+00
+ FCN=34.2051 FROM MIGRAD    STATUS=CONVERGED     218 CALLS         219 TOTAL
+                     EDM=5.10345e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           8.69794e+01   6.94390e+00   1.53387e-02  -2.84136e-05
+   2  p1           5.28879e+03   4.35194e+00   1.21655e-02  -5.05755e-05
+   3  p2           5.45040e+01   5.43420e+00   9.73241e-03  -8.78151e-06
+   4  p3           1.29161e+02   5.47394e+01   4.77035e-03  -2.51534e-05
+   5  p4          -1.17447e-02   1.06941e-02   9.18845e-07  -1.23110e-01
+ 
+Peak 1
+Chi2: 41.5878 with 55 NDF
+Chi2/NDF: 0.756142
+Probability of fit: 0.909161
+Amplitude: 378.3 +- 8.33999
+Mean: 84.0278 +- 1.6669
+Sigma: 82.8559 +- 1.49954
+Background Intercept: 42.8998 +- 1.11239
+Background Slope: 0.0199452 +- 0.00258372
+FWHM of the peak: 195.111
+ 
+Peak 2
+Chi2: 33.9928 with 35 NDF
+Chi2/NDF: 0.971222
+Probability of fit: 0.516584
+Amplitude: 599.949 +- 10.7633
+Mean: 1094.65 +- 1.27397
+Sigma: 76.2205 +- 1.19607
+Background Intercept: 31.0814 +- 5.93126
+Background Slope: 0.0274177 +- 0.00666103
+FWHM of the peak: 179.486
+ 
+Peak 3
+Chi2: 21.147 with 23 NDF
+Chi2/NDF: 0.919434
+Probability of fit: 0.572111
+Amplitude: 39.3781 +- 5.79683
+Mean: 1871.38 +- 8.89385
+Sigma: 50.9261 +- 8.83091
+Background Intercept: 30.3797 +- 18.3185
+Background Slope: 0.0172072 +- 0.0103747
+FWHM of the peak: 119.922
+ 
+Peak 4
+Chi2: 29.5315 with 28 NDF
+Chi2/NDF: 1.0547
+Probability of fit: 0.385955
+Amplitude: 191.375 +- 7.95617
+Mean: 2386.18 +- 2.60966
+Sigma: 62.3512 +- 2.6955
+Background Intercept: -8.65125 +- 19.4711
+Background Slope: 0.032884 +- 0.00864062
+FWHM of the peak: 146.826
+ 
+Peaks 5
+Chi2: 31.7433 with 28 NDF
+Chi2/NDF: 1.13369
+Probability of fit: 0.285082
+Amplitude 1: 630.924 +- 14.3168
+Mean 1: 3280.24 +- 1.36085
+Sigma 1: 53.8104 +- 1.17911
+Amplitude 2: 614.079 +- 14.2216
+Mean 2: 3494.25 +- 1.50878
+Sigma 2: 62.4705 +- 2.04965
+Background Intercept: -92.0027 +- 65.5099
+Background Slope: 0.0515059 +- 0.0214125
+FWHM of the peak 1: 126.714
+FWHM of the peak 2: 147.107
+ 
+Peaks 6
+Chi2: 21.1554 with 20 NDF
+Chi2/NDF: 1.05777
+Probability of fit: 0.388039
+Amplitude 1: 624.479 +- 25.9044
+Mean 1: 4055.43 +- 1.49789
+Sigma 1: 43.2854 +- 1.80342
+Amplitude 2: 1039.51 +- 14.9592
+Mean 2: 4098.23 +- 3.95315
+Sigma 2: 180.046 +- 5.74379
+Background Intercept: 5713.63 +- 28.894
+Background Slope: -1.54002 +- 0.00796572
+FWHM of the peak 1: 101.929
+FWHM of the peak 2: 423.976
+ 
+Peak 7
+Chi2: 34.2051 with 25 NDF
+Chi2/NDF: 1.36821
+Probability of fit: 0.103595
+Amplitude: 86.9794 +- 6.9439
+Mean: 5288.79 +- 4.35194
+Sigma: 54.504 +- 5.4342
+Background Intercept: 129.161 +- 54.7394
+Background Slope: -0.0117447 +- 0.0106941
+FWHM of the peak: 128.347

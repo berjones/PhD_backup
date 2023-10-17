@@ -1,0 +1,24 @@
+#These channels were calibrated manually
+asic_0_3_48.Offset: -3877.266602
+asic_0_3_48.Gain: 16.072351
+asic_0_3_48.GainQuadr: 0.000000
+asic_0_3_55.Offset: -3728.284180
+asic_0_3_55.Gain: 16.033730
+asic_0_3_55.GainQuadr: 0.000000
+asic_1_3_42.Offset: -4004.378906
+asic_1_3_42.Gain: 15.941721
+asic_1_3_42.GainQuadr: 0.000000
+asic_2_5_18.Offset: -3866.938232
+asic_2_5_18.Gain: 15.996424
+asic_2_5_18.GainQuadr: 0.000000
+
+#These channels were calibrated with R2
+asic_2_5_23.Offset: -3720.322266
+asic_2_5_23.Gain: 16.138317
+asic_2_5_23.GainQuadr: 0.000000
+asic_2_5_126.Offset: -4201.911621
+asic_2_5_126.Gain: 16.307917
+asic_2_5_126.GainQuadr: 0.000000
+asic_2_5_127.Offset: -4933.593262
+asic_2_5_127.Gain: 18.557713
+asic_2_5_127.GainQuadr: 0.000000

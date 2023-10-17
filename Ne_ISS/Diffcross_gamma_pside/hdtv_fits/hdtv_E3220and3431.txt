@@ -1,0 +1,131 @@
+WorkFit on spectrum: 7 (row1_7)
+ id  stat  chi   channel        pos          vol      width  
+━━━━─────────────────────────────────────────────────────────
+ .0    AV   38  212.33(12)  3246.6(2.3)  2.47(7)e+03  184(5) 
+ .1    AV   38  223.05(32)      3461(6)  1.38(5)e+03  184(5) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 7
+WorkFit on spectrum: 7 (row1_7)
+ id  stat  chi   channel        pos          vol      width  
+━━━━─────────────────────────────────────────────────────────
+ .0    AV   43  211.99(14)  3239.7(2.7)  1.67(5)e+03  154(4) 
+ .1    AV   43    220.9(5)     3418(10)      370(31)  154(4) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 8
+WorkFit on spectrum: 8 (row2_0)
+ id  stat  chi   channel        pos          vol        width    
+━━━━─────────────────────────────────────────────────────────────
+ .0    AV   46   210.21(9)  3204.1(1.9)  1.07(4)e+03  121.9(3.2) 
+ .1    AV   46  221.20(11)  3424.0(2.2)  1.08(5)e+03  121.9(3.2) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 9
+WorkFit on spectrum: 9 (row2_1)
+ id  stat  chi   channel        pos         vol      width  
+━━━━────────────────────────────────────────────────────────
+ .0    AV   28  209.82(13)  3196.4(2.5)     700(35)  125(4) 
+ .1    AV   28  220.56(12)  3411.3(2.5)  8.9(4)e+02  125(4) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 10
+WorkFit on spectrum: 10 (row2_2)
+ id  stat  chi   channel        pos         vol      width  
+━━━━────────────────────────────────────────────────────────
+ .0    AV   46  209.85(16)  3197.0(3.1)     496(30)  125(4) 
+ .1    AV   46  220.60(13)  3411.9(2.6)  7.8(4)e+02  125(4) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 11
+WorkFit on spectrum: 11 (row2_3)
+ id  stat  chi   channel        pos        vol    width  
+━━━━─────────────────────────────────────────────────────
+ .0    AV   16  210.13(21)      3203(4)  402(28)  139(6) 
+ .1    AV   16  220.66(16)  3413.3(3.2)  641(34)  139(6) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 12
+WorkFit on spectrum: 12 (row2_4)
+ id  stat  chi   channel        pos        vol    width  
+━━━━─────────────────────────────────────────────────────
+ .0    AV   33  209.77(24)      3195(5)  325(28)  141(7) 
+ .1    AV   33  220.92(17)  3418.4(3.4)  621(35)  141(7) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 13
+WorkFit on spectrum: 13 (row2_5)
+ id  stat  chi   channel      pos      vol    width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   15  209.79(30)  3196(6)  231(27)  129(8) 
+ .1    AV   15  220.90(20)  3418(4)  399(34)  129(8) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 14
+WorkFit on spectrum: 14 (row2_6)
+ id  stat  chi   channel      pos      vol    width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   23  210.25(32)  3205(6)  185(25)  111(8) 
+ .1    AV   23  220.74(18)  3415(4)  356(30)  111(8) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 15
+WorkFit on spectrum: 15 (row2_7)
+ id  stat  chi   channel      pos       vol     width  
+━━━━───────────────────────────────────────────────────
+ .0    AV   19    210.9(6)  3217(11)  154(27)  143(14) 
+ .1    AV   19  221.05(34)   3421(7)  265(35)  143(14) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 16
+WorkFit on spectrum: 16 (row3_0)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   18  210.7(5)  3215(11)  128(27)  129(17) 
+ .1    AV   18  221.5(4)   3430(8)  183(33)  129(17) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 17
+WorkFit on spectrum: 17 (row3_1)
+ id  stat  chi   channel      pos       vol     width  
+━━━━───────────────────────────────────────────────────
+ .0    AV   22    210.2(6)  3205(13)  125(26)  139(14) 
+ .1    AV   22  220.75(31)   3415(6)  257(32)  139(14) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 18
+WorkFit on spectrum: 18 (row3_2)
+ id  stat  chi  channel     pos        vol       width  
+━━━━────────────────────────────────────────────────────
+ .0    AV   22  210.7(8)  3213(16)  1.5(4)e+02  164(28) 
+ .1    AV   22  221.6(6)  3431(12)  2.0(5)e+02  164(28) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 19
+WorkFit on spectrum: 19 (row3_3)
+ id  stat  chi  channel     pos       vol    width  
+━━━━────────────────────────────────────────────────
+ .0    AV   19  211.0(6)  3220(13)   71(23)  96(14) 
+ .1    AV   19  220.5(4)   3409(9)  120(25)  96(14) 
+
+2 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 20
+WorkFit on spectrum: 20 (row3_4)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   22  210.6(9)  3213(18)   67(27)  113(23) 
+ .1    AV   22  220.0(5)   3401(9)  148(33)  113(23) 

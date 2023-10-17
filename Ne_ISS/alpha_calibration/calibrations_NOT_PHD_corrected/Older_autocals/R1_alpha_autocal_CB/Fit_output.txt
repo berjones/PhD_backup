@@ -1,0 +1,292 @@
+brj_ubu@PavillionBRJ:/mnt/d/Ne_ISS/calibrations/R1_alpha_autocal_CB$ iss_sort -autocal -autocalfile  ~/ISSSort/autocal.dat  -i /mnt/d/Ne_ISS/data/R1_? -s /mnt/d/Ne_ISS/calibrations/settings_22Ne_20220715.dat -c /mnt/d/Ne_ISS/calibrations/calibration_is677_20220721.cal -r reaction_22Ne_2022_R1_alpha.dat -f -e
+Autocal file: /home/brj_ubu/ISSSort/autocal.dat
+Settings file: /mnt/d/Ne_ISS/calibrations/settings_22Ne_20220715.dat
+Calibration file: /mnt/d/Ne_ISS/calibrations/calibration_is677_20220721.cal
+Reaction file: reaction_22Ne_2022_R1_alpha.dat
+
+ +++  Alpha Source Run  +++
+ +++ ISS Analysis:: processing Converter +++
+/mnt/d/Ne_ISS/data/R1_0 --> /mnt/d/Ne_ISS/data/R1_0_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_0 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_1 --> /mnt/d/Ne_ISS/data/R1_1_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_1 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_2 --> /mnt/d/Ne_ISS/data/R1_2_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_2 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_3 --> /mnt/d/Ne_ISS/data/R1_3_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_3 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_4 --> /mnt/d/Ne_ISS/data/R1_4_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_4 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_5 --> /mnt/d/Ne_ISS/data/R1_5_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_5 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_6 --> /mnt/d/Ne_ISS/data/R1_6_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_6 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_7 --> /mnt/d/Ne_ISS/data/R1_7_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_7 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_8 --> /mnt/d/Ne_ISS/data/R1_8_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_8 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+/mnt/d/Ne_ISS/data/R1_9 --> /mnt/d/Ne_ISS/data/R1_9_source.root
+Converting file: /mnt/d/Ne_ISS/data/R1_9 from block 0
+         File size = 209715200
+        Block size = 65536
+          N blocks = 3200
+
+      100%
+ Writing data and closing the file
+
+ +++ ISS Analysis:: processing AutoCalibration +++
+Warning in <TClass::Init>: no dictionary for class ISSDataPackets is available
+Warning in <TClass::Init>: no dictionary for class ISSAsicData is available
+Warning in <TClass::Init>: no dictionary for class ISSCaenData is available
+Warning in <TClass::Init>: no dictionary for class ISSInfoData is available
+asic_0_1_22has 2 peaks!
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+Fit warning on module 0, asic 1, channel 22: peaks 0 and 1 are quite close together
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+Fit warning on module 0, asic 1, channel 22: peaks 1 and 2 are quite close together
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+Fit warning on module 0, asic 1, channel 22: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 1, channel 22: peaks not above threshold
+asic_0_1_100has 2 peaks!
+Fit warning on module 0, asic 1, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 0, asic 1, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 0, asic 1, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 1, channel 108: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 2, channel 15: Flat bg    at lower limit, 0 (actual value = 2.523e-09)
+Fit    fail on module 0, asic 2, channel 15: fit did not converge
+Fit warning on module 0, asic 3, channel 26: Flat bg    at lower limit, 0 (actual value = 1.882e-08)
+Fit    fail on module 0, asic 3, channel 26: fit did not converge
+Fit warning on module 0, asic 3, channel 55: Flat bg    at lower limit, 0 (actual value = 1.696e-11)
+Fit    fail on module 0, asic 3, channel 55: fit did not converge
+asic_0_4_117has 2 peaks!
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit warning on module 0, asic 4, channel 117: peaks 0 and 1 are quite close together
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit warning on module 0, asic 4, channel 117: peaks 1 and 2 are quite close together
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit warning on module 0, asic 4, channel 117: peaks 2 and 3 are quite close together
+Fit warning on module 0, asic 4, channel 117: peaks not above threshold
+Fit    fail on module 0, asic 5, channel 88: fit did not converge
+Fit    fail on module 1, asic 3, channel 63: fit did not converge
+asic_1_4_22has 2 peaks!
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+Fit warning on module 1, asic 4, channel 22: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+Fit warning on module 1, asic 4, channel 22: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+Fit warning on module 1, asic 4, channel 22: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 4, channel 22: peaks not above threshold
+asic_1_4_100has 2 peaks!
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+Fit warning on module 1, asic 4, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+Fit warning on module 1, asic 4, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+Fit warning on module 1, asic 4, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 4, channel 100: peaks not above threshold
+asic_1_4_117has 2 peaks!
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+Fit warning on module 1, asic 4, channel 117: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+Fit warning on module 1, asic 4, channel 117: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+Fit warning on module 1, asic 4, channel 117: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 4, channel 117: peaks not above threshold
+asic_1_5_8has 1 peaks!
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+Fit warning on module 1, asic 5, channel 8: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+Fit warning on module 1, asic 5, channel 8: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+Fit warning on module 1, asic 5, channel 8: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 8: peaks not above threshold
+asic_1_5_21has 1 peaks!
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+Fit warning on module 1, asic 5, channel 21: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+Fit warning on module 1, asic 5, channel 21: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+Fit warning on module 1, asic 5, channel 21: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 21: peaks not above threshold
+asic_1_5_32has 2 peaks!
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+Fit warning on module 1, asic 5, channel 32: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+Fit warning on module 1, asic 5, channel 32: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+Fit warning on module 1, asic 5, channel 32: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 32: peaks not above threshold
+asic_1_5_46has 2 peaks!
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+Fit warning on module 1, asic 5, channel 46: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+Fit warning on module 1, asic 5, channel 46: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+Fit warning on module 1, asic 5, channel 46: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 46: peaks not above threshold
+asic_1_5_59has 2 peaks!
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+Fit warning on module 1, asic 5, channel 59: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+Fit warning on module 1, asic 5, channel 59: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+Fit warning on module 1, asic 5, channel 59: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 59: peaks not above threshold
+Fit warning on module 1, asic 5, channel 76: Flat bg    at lower limit, 0 (actual value = 1.94e-09)
+Fit    fail on module 1, asic 5, channel 76: fit did not converge
+asic_1_5_86has 2 peaks!
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 86: peaks 0 and 1 are quite close together
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 86: peaks 1 and 2 are quite close together
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 86: peaks 2 and 3 are quite close together
+Fit warning on module 1, asic 5, channel 86: peaks not above threshold
+Fit warning on module 1, asic 5, channel 126: peaks not above threshold
+Fit warning on module 1, asic 5, channel 127: peaks not above threshold
+asic_2_0_50has 1 peaks!
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+Fit warning on module 2, asic 0, channel 50: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+Fit warning on module 2, asic 0, channel 50: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+Fit warning on module 2, asic 0, channel 50: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 0, channel 50: peaks not above threshold
+asic_2_0_84has 2 peaks!
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+Fit warning on module 2, asic 0, channel 84: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+Fit warning on module 2, asic 0, channel 84: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+Fit warning on module 2, asic 0, channel 84: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 0, channel 84: peaks not above threshold
+asic_2_1_39has 2 peaks!
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+Fit warning on module 2, asic 1, channel 39: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+Fit warning on module 2, asic 1, channel 39: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+Fit warning on module 2, asic 1, channel 39: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 1, channel 39: peaks not above threshold
+asic_2_1_100has 2 peaks!
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+Fit warning on module 2, asic 1, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+Fit warning on module 2, asic 1, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+Fit warning on module 2, asic 1, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 1, channel 100: peaks not above threshold
+asic_2_1_117has 2 peaks!
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+Fit warning on module 2, asic 1, channel 117: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+Fit warning on module 2, asic 1, channel 117: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+Fit warning on module 2, asic 1, channel 117: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 1, channel 117: peaks not above threshold
+asic_2_3_3has 2 peaks!
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+Fit warning on module 2, asic 3, channel 3: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+Fit warning on module 2, asic 3, channel 3: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+Fit warning on module 2, asic 3, channel 3: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 3, channel 3: peaks not above threshold
+asic_2_3_56has 2 peaks!
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+Fit warning on module 2, asic 3, channel 56: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+Fit warning on module 2, asic 3, channel 56: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+Fit warning on module 2, asic 3, channel 56: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 3, channel 56: peaks not above threshold
+Fit warning on module 2, asic 4, channel 12: Flat bg    at lower limit, 0 (actual value = 5.523e-13)
+Fit    fail on module 2, asic 4, channel 12: fit did not converge
+asic_2_4_22has 2 peaks!
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+Fit warning on module 2, asic 4, channel 22: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+Fit warning on module 2, asic 4, channel 22: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+Fit warning on module 2, asic 4, channel 22: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 4, channel 22: peaks not above threshold
+asic_2_4_39has 2 peaks!
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+Fit warning on module 2, asic 4, channel 39: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+Fit warning on module 2, asic 4, channel 39: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+Fit warning on module 2, asic 4, channel 39: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 4, channel 39: peaks not above threshold
+asic_2_4_100has 2 peaks!
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 4, channel 100: peaks 0 and 1 are quite close together
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 4, channel 100: peaks 1 and 2 are quite close together
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 4, channel 100: peaks 2 and 3 are quite close together
+Fit warning on module 2, asic 4, channel 100: peaks not above threshold
+Fit warning on module 2, asic 5, channel 29: Flat bg    at lower limit, 0 (actual value = 2.346e-08)
+Fit    fail on module 2, asic 5, channel 29: fit did not converge
+Fit warning on module 2, asic 5, channel 118: peaks not above threshold
+Fit warning on module 2, asic 5, channel 119: peaks not above threshold
+Fit warning on module 2, asic 5, channel 123: peaks not above threshold
+Fit warning on module 2, asic 5, channel 125: peaks not above threshold
+Fit warning on module 2, asic 5, channel 126: peaks not above threshold
+Fit warning on module 2, asic 5, channel 127: peaks not above threshold
+ 99.96 %
+
+Finished!

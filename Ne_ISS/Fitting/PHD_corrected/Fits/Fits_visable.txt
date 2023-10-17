@@ -1,0 +1,95 @@
+Peak 1
+Chi2: 63.8637 with 55 NDF
+Chi2/NDF: 1.16116
+Probability of fit: 0.193142
+Amplitude: 405.318 +- 9.04686
+Mean: -3.4315 +- 1.51947
+Sigma: 75.7205 +- 1.36422
+Background Intercept: 44.91 +- 1.08512
+Background Slope: 0.0154585 +- 0.00252369
+FWHM of the peak: 178.308
+ 
+Peak 2
+Chi2: 45.8671 with 35 NDF
+Chi2/NDF: 1.31049
+Probability of fit: 0.103396
+Amplitude: 698.174 +- 12.4662
+Mean: 1007.73 +- 1.05889
+Sigma: 65.4558 +- 0.933706
+Background Intercept: 37.2386 +- 5.63366
+Background Slope: 0.0245994 +- 0.00560655
+FWHM of the peak: 154.137
+ 
+Peak 3
+Chi2: 24.8532 with 23 NDF
+Chi2/NDF: 1.08057
+Probability of fit: 0.357898
+Amplitude: 39.0893 +- 5.31023
+Mean: 1819.37 +- 9.16916
+Sigma: 59.7912 +- 9.40526
+Background Intercept: 53.6693 +- 17.8717
+Background Slope: 0.0035417 +- 0.00971463
+FWHM of the peak: 140.797
+ 
+Peak 4
+Chi2: 28.7545 with 28 NDF
+Chi2/NDF: 1.02695
+Probability of fit: 0.425056
+Amplitude: 193.017 +- 7.91351
+Mean: 2311.9 +- 2.52655
+Sigma: 64.0044 +- 2.74336
+Background Intercept: 13.9948 +- 18.1553
+Background Slope: 0.0220716 +- 0.00774174
+FWHM of the peak: 150.719
+ 
+Peaks 5
+Chi2: 44.6433 with 28 NDF
+Chi2/NDF: 1.5944
+Probability of fit: 0.0239684
+Amplitude 1: 617.996 +- 13.601
+Mean 1: 3211.32 +- 1.42893
+Sigma 1: 56.22 +- 1.35297
+Amplitude 2: 611.125 +- 13.3012
+Mean 2: 3423.06 +- 1.4846
+Sigma 2: 62.3248 +- 1.67476
+Background Intercept: -124.956 +- 32.9377
+Background Slope: 0.0630636 +- 0.0103759
+FWHM of the peak 1: 132.388
+FWHM of the peak 2: 146.764
+ 
+Peaks 6
+Chi2: 25.6481 with 20 NDF
+Chi2/NDF: 1.28241
+Probability of fit: 0.177751
+Amplitude 1: 378.52 +- 36.724
+Mean 1: 3949.52 +- 6.85119
+Sigma 1: 116.463 +- 7.12913
+Amplitude 2: 663.974 +- 36.0924
+Mean 2: 3981.96 +- 1.7766
+Sigma 2: 47.3736 +- 2.29111
+Background Intercept: 206.032 +- 132.478
+Background Slope: -0.0368162 +- 0.0355521
+FWHM of the peak 1: 274.25
+FWHM of the peak 2: 111.556
+ 
+Peak 7
+Chi2: 30.8929 with 25 NDF
+Chi2/NDF: 1.23572
+Probability of fit: 0.192588
+Amplitude: 79.8836 +- 6.5394
+Mean: 5215.68 +- 4.85693
+Sigma: 59.9275 +- 6.18974
+Background Intercept: 163.123 +- 46.9761
+Background Slope: -0.0187023 +- 0.00903136
+FWHM of the peak: 141.119
+ 
+Peak 8
+Chi2: 40.7679 with 25 NDF
+Chi2/NDF: 1.63072
+Probability of fit: 0.0242806
+Amplitude: 35.296 +- 5.40464
+Mean: 5744.91 +- 15.8763
+Sigma: 107.124 +- 22.3154
+Background Intercept: 167.061 +- 84.0104
+Background Slope: -0.0214369 +- 0.0138776
+FWHM of the peak: 252.258

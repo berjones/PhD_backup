@@ -1,0 +1,117 @@
+WorkFit on spectrum: 4 (row1_4)
+ id  stat  chi   channel      pos      vol    width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   33  165.28(28)  2306(6)  245(18)  154(9) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 5
+WorkFit on spectrum: 5 (row1_5)
+ id  stat  chi   channel      pos      vol    width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   64  165.29(20)  2306(4)  232(18)  105(7) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 6
+WorkFit on spectrum: 6 (row1_6)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   32  165.90(33)  2318(7)  164(16)  130(11) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 7
+WorkFit on spectrum: 7 (row1_7)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV    9  164.36(34)  2287(7)  195(17)  161(14) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 8
+WorkFit on spectrum: 8 (row2_0)
+ id  stat  chi   channel      pos      vol    width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   39  164.31(27)  2286(5)  151(15)  102(7) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 9
+WorkFit on spectrum: 9 (row2_1)
+ id  stat  chi  channel     pos      vol     width  
+━━━━────────────────────────────────────────────────
+ .0    AV   11  164.7(4)  2295(7)  133(16)  127(14) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 10
+WorkFit on spectrum: 10 (row2_2)
+ id  stat  chi  channel     pos      vol     width  
+━━━━────────────────────────────────────────────────
+ .0    AV   12  164.6(4)  2292(8)  125(15)  137(14) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 11
+WorkFit on spectrum: 11 (row2_3)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   13  165.9(5)  2319(10)  110(15)  139(20) 
+
+1 peaks in WorkFit
+'pos' fit parameter reset to 'free'
+WorkFit on spectrum: 11 (row2_3)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV    5  165.5(5)  2310(10)  169(19)  191(25) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 12
+WorkFit on spectrum: 12 (row2_4)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV    9  165.4(6)  2308(12)  109(16)  161(23) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 13
+WorkFit on spectrum: 13 (row2_5)
+ id  stat  chi  channel     pos       vol      width    
+━━━━────────────────────────────────────────────────────
+ .0    AV   11  165.1(8)  2301(15)  122(20)  1.9(4)e+02 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 14
+WorkFit on spectrum: 14 (row2_6)
+ id  stat  chi   channel        pos       vol       width     
+━━━━──────────────────────────────────────────────────────────
+ .0    AV   31  166.0(1.8)  2.32(4)e+03  85(26)  2.6(1.0)e+02 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 15
+WorkFit on spectrum: 15 (row2_7)
+ id  stat  chi   channel      pos      vol      width    
+━━━━─────────────────────────────────────────────────────
+ .0    AV   24  166.3(1.2)  2325(23)  91(25)  2.1(9)e+02 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 16
+'pos' fit parameter reset to 'free'
+WorkFit on spectrum: 16 (row3_0)
+ id  stat  chi   channel      pos       vol      width    
+━━━━──────────────────────────────────────────────────────
+ .0    AV   10  163.8(1.0)  2277(20)  104(26)  1.8(6)e+02 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 17
+'pos' fit parameter reset to 'free'
+WorkFit on spectrum: 17 (row3_1)
+ id  stat  chi  channel     pos     vol    width  
+━━━━──────────────────────────────────────────────
+ .0    AV    4  167.3(4)  2347(9)  50(16)  55(25) 

@@ -1,0 +1,86 @@
+WorkFit on spectrum: 5 (row2_2)
+ id  stat  chi   channel      pos     vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   11  166.72(32)  2334(6)  90(11)  111(22) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 6
+'pos' fit parameter reset to 'free'
+WorkFit on spectrum: 6 (row2_3)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   30  170.47(33)  2409(7)  197(16)  166(12) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 7
+'pos' fit parameter reset to 'free'
+WorkFit on spectrum: 7 (row3_0)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   14  166.79(29)  2336(6)  142(13)  126(14) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 8
+WorkFit on spectrum: 8 (row3_1)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   12  167.82(30)  2356(6)  143(13)  136(12) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 9
+WorkFit on spectrum: 9 (row3_2)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   10  167.24(30)  2345(6)  122(13)  119(13) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 10
+WorkFit on spectrum: 10 (row3_3)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   10  167.03(27)  2341(5)  127(12)  119(11) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 11
+WorkFit on spectrum: 11 (row4_0)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   10  166.26(33)  2325(7)  102(12)  122(12) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 12
+'pos' fit parameter reset to 'free'
+WorkFit on spectrum: 12 (row4_1)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   11  165.8(6)  2316(12)  179(17)  239(27) 
+
+1 peaks in WorkFit
+ERROR: Active spectrum does not belong to a matrix
+WorkFit on spectrum: 12 (row4_1)
+ id  stat  chi  channel     pos      vol     width  
+━━━━────────────────────────────────────────────────
+ .0    AV   19  166.2(5)  2324(9)  169(15)  218(18) 
+
+
+1 peaks in WorkFit
+'pos' fit parameter reset to 'free'
+WorkFit on spectrum: 13 (row4_2)
+ id  stat  chi  channel     pos       vol     width  
+━━━━─────────────────────────────────────────────────
+ .0    AV   28  167.4(7)  2347(14)  150(17)  243(35) 
+
+1 peaks in WorkFit
+hdtv> spectrum hide
+hdtv> spectrum activate 14
+WorkFit on spectrum: 14 (row4_3)
+ id  stat  chi   channel      pos       vol       width     
+━━━━────────────────────────────────────────────────────────
+ .0    AV   20  167.2(1.7)  2344(35)  155(28)  4.4(1.0)e+02 
