@@ -36,7 +36,7 @@ int run_thresholds( string filename) {
 	TH2F* h2;
 	TH1F* h1;
 
-	ofstream outfile( "thresholds_R1_all.dat" );
+	ofstream outfile( "thresholds_autocal.dat" );
 	
 	int thres;
 

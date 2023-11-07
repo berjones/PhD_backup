@@ -1,16 +1,0 @@
-HDTV - Nuclear Spectrum Analysis Tool
-Execute file: batchtest.txt
-file> root get test_hist.root/SinglesMode/Ex
-Ex unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
-1 spectra loaded
-file> fit marker background set 0 100 2000 4000
-file> fit marker region set -500 6000
-file> fit marker peak set 1000
-file> fit execute
-WorkFit on spectrum: 0 (Ex)
- id  stat  chi   channel      pos           vol          width     
-━━━━───────────────────────────────────────────────────────────────
- .0    AV  2018   109(6)  1.8(1.2)e+02  3.16(28)e+03  2.11(17)e+03 
-
-1 peaks in WorkFit
-file> shell

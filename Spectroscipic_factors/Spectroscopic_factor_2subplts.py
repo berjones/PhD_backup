@@ -9,12 +9,14 @@ plt.style.use('science')
 energy = np.array([0, 1016.926, 2315.1, 3220.69, 3431.6, 3836, 3987])*1e-3
 intensity_subplots = np.array([
     [0.20569, 0.955224, 0.0555691, 0.209736, 0.309072, 0.08, 0.35],# ISS 2021
-    [0.39, 1.18, 0.08, 0.29, 0.45, 0.17, 0.64],
+    [0.39, 1.18, 0.08, 0.29, 0.45, 0.17, 0.64], # ISS 2022
     [0.216666, 0.7, 0.05, 0.3, 0.3, 0.105, 0.275],  # 1970 howard
     [0.23, 0.385, 0.07, 0, 0.375, 0.085, 0.3]  # lutz 1967 
       # Subplot 3 (example different values)
 ])
 
+print("Ratio of 2021 to 2022 Spectroscopic factors:")
+print(intensity_subplots[0]/intensity_subplots[1])
 
 mask1 = ma.where(intensity_subplots[0]>=intensity_subplots[1])
 mask2 = ma.where(intensity_subplots[1]>=intensity_subplots[0])

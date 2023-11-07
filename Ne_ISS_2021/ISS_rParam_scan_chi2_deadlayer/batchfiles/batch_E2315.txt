@@ -1,0 +1,29 @@
+root get projections/proj_reaction_ArrayDeadlayer_0.0007_Mfield_2.05.root/*
+
+spectrum activate 5 
+fit marker region set 1990 2500
+fit marker peak set 2330
+fit execute
+
+spectrum activate 6 
+fit execute
+
+spectrum activate 7 
+fit execute
+
+spectrum activate 8 
+fit execute
+
+spectrum activate 9 
+fit execute
+
+spectrum activate 10 
+fit execute
+
+spectrum activate 11
+fit execute
+
+spectrum activate 12
+fit execute
+
+shell

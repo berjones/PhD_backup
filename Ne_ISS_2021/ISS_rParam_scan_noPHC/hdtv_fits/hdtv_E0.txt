@@ -1,0 +1,142 @@
+HDTV - Nuclear Spectrum Analysis Tool
+Execute file: batchfiles/batch_E0.txt
+file> root get projections/proj_reaction_Mfield_2.0.root/*
+row1_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row1_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row1_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_3 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_3 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_3 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+15 spectra loaded
+file> spectrum activate 0
+file> fit marker region set -650 650
+file> fit marker peak set 0
+file> fit execute
+WorkFit on spectrum: 0 (row1_0)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 1
+file> fit execute
+WorkFit on spectrum: 1 (row1_1)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 2
+file> fit execute
+WorkFit on spectrum: 2 (row1_2)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 3
+file> fit execute
+WorkFit on spectrum: 3 (row2_0)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 4
+file> fit execute
+WorkFit on spectrum: 4 (row2_1)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 5
+file> fit execute
+WorkFit on spectrum: 5 (row2_2)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 6
+file> fit execute
+WorkFit on spectrum: 6 (row2_3)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 7
+file> fit execute
+WorkFit on spectrum: 7 (row3_0)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 8
+file> fit execute
+WorkFit on spectrum: 8 (row3_1)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 9
+file> fit execute
+WorkFit on spectrum: 9 (row3_2)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 10
+file> fit execute
+WorkFit on spectrum: 10 (row3_3)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 11
+file> fit execute
+WorkFit on spectrum: 11 (row4_0)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 12
+file> fit execute
+WorkFit on spectrum: 12 (row4_1)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 13
+file> fit execute
+WorkFit on spectrum: 13 (row4_2)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> spectrum activate 14
+file> fit execute
+WorkFit on spectrum: 14 (row4_3)
+ id  stat  chi         channel                    pos              vol     width   
+━━━━───────────────────────────────────────────────────────────────────────────────
+ .0    AV    0  49.999999999997875(0)  1.1368683772161603(0)e-13  nan(0)  nan(nan) 
+
+1 peaks in WorkFit
+file> shell

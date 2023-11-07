@@ -1,0 +1,86 @@
+HDTV - Nuclear Spectrum Analysis Tool
+Execute file: batchfiles/batch_E2315.txt
+file> root get projections/proj_reaction_TargetThickness_0.3.root/*
+row1_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row1_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row1_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row2_3 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row3_3 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_0 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_1 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_2 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+row4_3 unconventional binning detected. Converting and trying to create calibration using a polynomial of order 4 ...
+15 spectra loaded
+file> spectrum activate 5
+file> fit marker region set 1990 2500
+file> fit marker peak set 2330
+file> fit execute
+WorkFit on spectrum: 5 (row2_2)
+ id  stat  chi  channel     pos     vol     width  
+━━━━───────────────────────────────────────────────
+ .0    AV    8  165.0(4)  2300(7)  84(12)  114(15) 
+
+1 peaks in WorkFit
+file> spectrum activate 6
+file> fit execute
+WorkFit on spectrum: 6 (row2_3)
+ id  stat  chi  channel     pos      vol     width  
+━━━━────────────────────────────────────────────────
+ .0    AV   16  166.8(5)  2335(9)  167(35)  162(23) 
+
+1 peaks in WorkFit
+file> spectrum activate 7
+file> fit execute
+WorkFit on spectrum: 7 (row3_0)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   13  162.74(30)  2255(6)  122(14)  123(14) 
+
+1 peaks in WorkFit
+file> spectrum activate 8
+file> fit execute
+WorkFit on spectrum: 8 (row3_1)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   23  162.95(31)  2259(6)  126(15)  129(12) 
+
+1 peaks in WorkFit
+file> spectrum activate 9
+file> fit execute
+WorkFit on spectrum: 9 (row3_2)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   12  161.67(31)  2233(6)  123(14)  132(17) 
+
+1 peaks in WorkFit
+file> spectrum activate 10
+file> fit execute
+WorkFit on spectrum: 10 (row3_3)
+ id  stat  chi   channel      pos      vol     width  
+━━━━──────────────────────────────────────────────────
+ .0    AV   10  161.74(32)  2235(6)  119(15)  133(17) 
+
+1 peaks in WorkFit
+file> spectrum activate 11
+file> fit execute
+WorkFit on spectrum: 11 (row4_0)
+ id  stat  chi  channel     pos     vol     width  
+━━━━───────────────────────────────────────────────
+ .0    AV   16  160.3(4)  2206(9)  87(14)  132(17) 
+
+1 peaks in WorkFit
+file> spectrum activate 12
+file> fit execute
+WorkFit on spectrum: 12 (row4_1)
+ id  stat  chi   channel      pos         vol         width    
+━━━━───────────────────────────────────────────────────────────
+ .0    AV   25  159.6(1.6)  2193(31)  2.0(1.2)e+02  2.7(8)e+02 
+
+1 peaks in WorkFit
+file> shell

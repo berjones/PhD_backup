@@ -8,7 +8,7 @@
 #include <vector>
 
 /// input hists file from ISSSort
-std::string hists_file = "22Ne_R8_to_R15_sumhists_20231002_164431_Al_deadlayer_0004_arraydist_129p1_alpha_recalibrated_pside_no_tw.root"; 
+// std::string hists_file = "22Ne_R8_to_R15_sumhists_20231002_164431_Al_deadlayer_0004_arraydist_129p1_alpha_recalibrated_pside_no_tw.root"; 
 std::string outfile_name = "";
 
 /// output directory containing the projections and z position 
@@ -83,7 +83,7 @@ double* bin_to_xvalue(int bin_low, int bin_up, TH2D* histogram){
 
 /// function to take projections (and find z position) of input histogram
 /// module can be set to 0, 1, 2 or sum  
-void projector(std::string module = "sum"){
+void projector(const std::string& hists_file, std::string module = "sum"){
 
     if (module == "sum"){
         /// access the hists file 

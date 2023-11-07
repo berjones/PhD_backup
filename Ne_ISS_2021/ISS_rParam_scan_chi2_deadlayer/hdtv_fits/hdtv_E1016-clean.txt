@@ -1,0 +1,2 @@
+projection,pos,vol,width
+row2_1,-6981(28),-579386.8(2.0),0.0(1.5)e+08

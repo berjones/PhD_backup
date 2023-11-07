@@ -62,3 +62,14 @@ print("")
 # EBIS:
 # Rate times target nuclei (IN_t) for the 2022 data:  2796.094820237846
 
+
+Yieldrx2 = 6.37e3 + (2*1.28e3) 
+DiffCrossIntrx2 = 7.142104
+
+IN_trx2 = Yieldrx2/DiffCrossIntrx2
+print("Recoil gated:")
+print("Rate times target nuclei (IN_t) for the 2022 data x2 double bump: ", IN_trx2)
+print("")
+
+# Recoil gated:
+# Rate times target nuclei (IN_t) for the 2022 data x2 double bump:  1250.3318349886813
