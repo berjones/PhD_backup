@@ -72,8 +72,14 @@
 #include "TFile.h"
 
 
-
-void plot_EvsPixel(){
+//////////////////////////////////////////////////////
+//                                                  //
+//      Make Energy vs pid plot for both distances  //
+//      for a specific module, row and nid          //
+//                                                  //           
+////////////////////////////////////////////////////// 
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+void plot_EvsPixel_d1(int module, int row, int nid){
 
     TChain *evt_tree = new TChain("evt_tree");
     evt_tree->Add("../data/R189_*_events.root");
@@ -86,16 +92,17 @@ void plot_EvsPixel(){
     TH2F *En_vs_pid_distance1 = new TH2F("En_vs_pid_distance1", "Alpha energy vs 1 distance ; p-side strip ; Energy (arb.)", 128, -0.5, 127.5, 500, 0, 10000);
     En_vs_pid_distance1->SetStats(0);
     // Draw the histogram
-    evt_tree->Draw("array_event.nen:array_event.pid >> En_vs_pid_distance1", "array_event.mod == 1 && array_event.row == 3 && array_event.nid == 5", "colz");
+    evt_tree->Draw("array_event.nen:array_event.pid >> En_vs_pid_distance1", Form("array_event.mod == %d && array_event.row == %d && array_event.nid == %d", module, row, nid), "colz");
 
     // Optionally, save the histogram to a file
-    TFile *outputFile = new TFile("nid5_En_vs_pid.root", "RECREATE");
+    std::string outputFileName = Form("mod%d_row%d_nid%d_En_vs_pid.root", module, row, nid);
+    TFile *outputFile = new TFile(outputFileName.c_str(), "RECREATE");
     En_vs_pid_distance1->Write();
     outputFile->Close();
 
 }
 
-void plot_EvsPixeld2(){
+void plot_EvsPixel_d2(int module, int row, int nid){
 
     TChain *evt_tree = new TChain("evt_tree");
     evt_tree->Add("../data/R190_*_events.root");
@@ -108,18 +115,25 @@ void plot_EvsPixeld2(){
     TH2F *En_vs_pid_distance2 = new TH2F("En_vs_pid_distance2", "Alpha energy vs 1 distance ; p-side strip ; Energy (arb.)", 128, -0.5, 127.5, 500, 0, 10000);
     En_vs_pid_distance2->SetStats(0);
     // Draw the histogram
-    evt_tree->Draw("array_event.nen:array_event.pid >> En_vs_pid_distance2", "array_event.mod == 1 && array_event.row == 3 && array_event.nid == 5", "colz");
+    evt_tree->Draw("array_event.nen:array_event.pid >> En_vs_pid_distance2", Form("array_event.mod == %d && array_event.row == %d && array_event.nid == %d", module, row, nid), "colz");
 
     // Optionally, save the histogram to a file
-    TFile *outputFile = new TFile("nid5_En_vs_pid.root", "update");
+    std::string outputFileName = Form("mod%d_row%d_nid%d_En_vs_pid.root", module, row, nid);
+    TFile *outputFile = new TFile(outputFileName.c_str(), "update");
     En_vs_pid_distance2->Write();
     outputFile->Close();
 
 }
 
 
+void plot_EvsPixel_BothDistance(int module, int row, int nid){
+    
+    // Draw Energy vs pid for both distances
+    plot_EvsPixel_d1(module, row, nid);
+    plot_EvsPixel_d2(module, row, nid);
+}
 
-
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 

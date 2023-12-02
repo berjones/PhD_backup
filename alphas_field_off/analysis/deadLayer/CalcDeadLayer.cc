@@ -14,9 +14,11 @@
 
 ISSArrayEvt *myarrayevt;
 
-
-// The geometry calculations used to determine theta
-//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////
+//                                                              //
+//      The geometry calculations used to determine theta       //
+//                                                              //
+//////////////////////////////////////////////////////////////////     
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Gets the XYZ coordinate of a unique pixel on the array
@@ -151,13 +153,70 @@ Double_t Get_Theta(const double array_distance, const int pid, const int nid, in
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//////////////////////////////////////////////////////////////////
+//                                                              //
+//      Get the energy loss for each of the alpha peaks         //
+//                                                              //
+//////////////////////////////////////////////////////////////////   
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+double GetEnergyLoss_4He_in_Al(double E) {
+    gROOT->SetBatch(kTRUE);
+    gErrorIgnoreLevel = kError;
 
-// Do the automatic fit of the alpha peaks
+    // Data
+    std::vector<double> ionEnergy = {3.00, 3.25, 3.50, 3.75, 4.00, 4.50, 5.00, 5.50, 6.00}; // In Mev 
+    std::vector<double> dEdx_Elec = {8.070E-01, 7.731E-01, 7.422E-01, 7.139E-01, 6.881E-01, 6.423E-01, 6.029E-01, 5.688E-01, 5.389E-01}; // In MeV / (mg/cm2) 
+    std::vector<double> dEdx_Nucl = {6.893E-04, 6.435E-04, 6.038E-04, 5.690E-04, 5.382E-04, 4.861E-04, 4.438E-04, 4.085E-04, 3.788E-04}; // In MeV / (mg/cm2) 
+
+    double mgpercm2_to_MeVmm = 2.7019e2;
+    // Calculate find the total dEdx (Elec + Nucl) in keV/mm 
+    std::vector<double> dEdx_Total;
+    for (size_t i = 0; i < ionEnergy.size(); ++i) {
+        double dEdx_Totalval = (dEdx_Elec[i] + dEdx_Nucl[i])*mgpercm2_to_MeVmm*1e3;
+        dEdx_Total.push_back(dEdx_Totalval);
+    }
+
+    // Create TGraph
+    TGraph *graph = new TGraph(ionEnergy.size());
+
+    for (size_t i = 0; i < ionEnergy.size(); ++i) {
+        ionEnergy[i] = ionEnergy[i]*1e3; // convert to keV
+        graph->SetPoint(i, ionEnergy[i], dEdx_Total[i]);
+    }
+
+    // // Set graph title and axis titles
+    //graph->SetTitle("Ion Energy vs dEdx (Electric + Nuclear), for 4He in Al; Ion Energy (keV); dEdx (keV/mm)");
+
+    // // Create a canvas to draw the graph
+    // TCanvas *canvas = new TCanvas("canvas", "Graph Canvas", 800, 600);
+    // // Draw the TGraph
+    // graph->SetMarkerStyle(3);
+    // graph->Draw("AP");
+
+    // Create a spline interpolation from the TGraph
+    TSpline3 *dEdx_spline = new TSpline3("dEdx_spline", graph, "akima");
+
+    // Draw the spline interpolation on the same canvas
+    //dEdx_spline->Draw("SAME");
+
+    // Show the canvas
+    //canvas->SaveAs("4He_in_Al.png");
+
+    double Energy_loss = dEdx_spline->Eval(E);
+
+    return Energy_loss;
+}
+
+
+//////////////////////////////////////////////////////
+//                                                  //
+//      Do the automatic fit of the alpha peaks     //
+//                                                  //           
+////////////////////////////////////////////////////// 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 Double_t CrystalBall4(Double_t *x, Double_t *par) {
     // 4 peak crystall ball  
     Double_t result = 0.0;
@@ -180,7 +239,7 @@ Double_t Gauss4(Double_t *x, Double_t *par) {
     return result;
 }
 
-std::vector<std::vector<Double_t>> FitAlphaPeaks(const std::string& rootFileName, const std::string& En_pid_DistanceN) {
+std::vector<std::vector<Double_t>> FitAlphaPeaks(const std::string& rootFileName, const std::string& En_pid_DistanceN, int nid, int module, int row, char side ) {
     // Root in batch mode 
     gROOT->SetBatch(kTRUE);
     gErrorIgnoreLevel = kError;
@@ -196,7 +255,7 @@ std::vector<std::vector<Double_t>> FitAlphaPeaks(const std::string& rootFileName
     TH2F *hist = (TH2F*)file->Get(En_pid_DistanceN.c_str());
 
     // Create a directory for saving plots
-    std::string plotDirectory = En_pid_DistanceN + "_plots";
+    std::string plotDirectory = "nid" + std::to_string(nid) + "_" + "mod" + std::to_string(module) + "_" + "row" + std::to_string(row) + "_" + "side" + side + "_" + En_pid_DistanceN + "_AlphaFits";
     system(("mkdir -p " + plotDirectory).c_str());
 
     // Stores the peak positions for each projection 
@@ -327,11 +386,17 @@ std::vector<std::vector<Double_t>> FitAlphaPeaks(const std::string& rootFileName
 }
 
 
-
-void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Distance1, const std::string& En_pid_Distance2) {
+void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Distance1, const std::string& En_pid_Distance2, const int nid = 5, int module = 1, int row = 3, char side = 'A') {
+    // Alpha energies
+    std::vector<double> AlphaEnergy = {3182.69, 5148.3, 5478.6, 5795.04}; // In keV 
+    
     // Read in the peak positions
-    std::vector<std::vector<Double_t>> alphaPeaks_d1 = FitAlphaPeaks(rootFileName, En_pid_Distance1);
-    std::vector<std::vector<Double_t>> alphaPeaks_d2 = FitAlphaPeaks(rootFileName, En_pid_Distance2);
+    std::vector<std::vector<Double_t>> alphaPeaks_d1 = FitAlphaPeaks(rootFileName, En_pid_Distance1, nid, module, row, side);
+    std::vector<std::vector<Double_t>> alphaPeaks_d2 = FitAlphaPeaks(rootFileName, En_pid_Distance2, nid, module, row, side);
+
+    // Create a directory for saving plots
+    std::string plotDirectory = "nid" + std::to_string(nid) + "_" + "mod" + std::to_string(module) + "_" + "row" + std::to_string(row) + "_" + "side" + side + "_EvsInvCosTheta";
+    system(("mkdir -p " + plotDirectory).c_str());
 
     // Loop over each peak
     for (size_t peakIndex = 0; peakIndex < 4; ++peakIndex) {
@@ -348,7 +413,7 @@ void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Di
         // Loop over each PID value
         for (int pid = 0; pid < 128; ++pid) {
             // Calculate 1/cos(theta) using Get_Theta function
-            double theta = Get_Theta(80.02, pid, 5);
+            double theta = Get_Theta(80.02, pid, nid, module, row, side);
             double invCosTheta = 1.0 / TMath::Cos(theta);
 
             // Check if the error is within a reasonable range
@@ -372,7 +437,7 @@ void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Di
         int plotIndex2 = 0;
         for (int pid = 0; pid < 128; ++pid) {
             // Calculate 1/cos(theta) using Get_Theta function
-            double theta = Get_Theta(205.02, pid, 5);
+            double theta = Get_Theta(205.02, pid, nid, module, row, side);
             double invCosTheta = 1.0 / TMath::Cos(theta);
 
             // Check if the error is within a reasonable range
@@ -396,14 +461,16 @@ void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Di
 
         // Create a new plot for each peak
         EvsInvCosTheta_1->SetMarkerStyle(4);
-        EvsInvCosTheta_1->SetMarkerColorAlpha(kBlue, 1);
+        EvsInvCosTheta_1->SetMarkerColorAlpha(kBlue -9, 0.8);
         EvsInvCosTheta_2->SetMarkerStyle(4);
-        EvsInvCosTheta_2->SetMarkerColorAlpha(kGreen, 1);
+        EvsInvCosTheta_2->SetMarkerColorAlpha(kGreen -7, 0.8);
         mg->Add(EvsInvCosTheta_1);
         mg->Add(EvsInvCosTheta_2);       
-
-        mg->SetTitle(Form("Alpha Peak %zu vs 1/cos(theta);1/cos(theta);Energy", peakIndex + 1));
+        mg->SetTitle(Form("Alpha energy = %.2f keV;1/cos(#theta);Energy (arb.)", AlphaEnergy[peakIndex] ));
         mg->Draw("AP");
+
+        // Get the energy loss for the peak of interest
+        double AlphaEnergyLoss = GetEnergyLoss_4He_in_Al(AlphaEnergy[peakIndex]);
 
         // Fit the first distance
         TF1 *Fit_d1 = new TF1("Fit_d1", "pol1");
@@ -411,7 +478,12 @@ void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Di
         Fit_d1->SetParameter(1, -80); // p1
         Fit_d1->SetRange(1.1, 1.64);
         Fit_d1->SetLineColorAlpha(kBlue, 1);
-        EvsInvCosTheta_1->Fit("Fit_d1", "R");
+        EvsInvCosTheta_1->Fit("Fit_d1", "Q");
+        double chi2_ndf_d1 = Fit_d1->GetChisquare()/Fit_d1->GetNDF();
+        double grad_d1 = Fit_d1->GetParameter(1);
+        double grad_d1_Err = Fit_d1->GetParError(1);
+        double Deadlayer_d1 = -grad_d1/AlphaEnergyLoss * 1e3; // calculate dead layer in micrometer
+        double Deadlayer_d1_err = grad_d1_Err/AlphaEnergyLoss * 1e3; // calculate dead layer in micrometer
         
         // Fit the second distance
         TF1 *Fit_d2 = new TF1("Fit_d2", "pol1");
@@ -419,7 +491,12 @@ void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Di
         Fit_d2->SetParameter(1, -80); // p1
         Fit_d2->SetRange(1.61, 2.28);
         Fit_d2->SetLineColorAlpha(kGreen, 1);
-        EvsInvCosTheta_2->Fit("Fit_d2", "R");
+        EvsInvCosTheta_2->Fit("Fit_d2", "Q");
+        double chi2_ndf_d2 = Fit_d2->GetChisquare()/Fit_d2->GetNDF();
+        double grad_d2 = Fit_d2->GetParameter(1);
+        double grad_d2_Err = Fit_d2->GetParError(1);
+        double Deadlayer_d2 = -grad_d2/AlphaEnergyLoss * 1e3; // calculate dead layer in micrometer
+        double Deadlayer_d2_err = grad_d2_Err/AlphaEnergyLoss * 1e3; // calculate dead layer in micrometer
 
         // Fit the combined graph
         TF1 *Fit_full_d = new TF1("Fit_full_d", "pol1");
@@ -427,29 +504,41 @@ void DeadLayerPlot(const std::string& rootFileName, const std::string& En_pid_Di
         Fit_full_d->SetParameter(1, -80); // p1
         Fit_full_d->SetRange(1.1, 2.28);
         Fit_full_d->SetLineColorAlpha(kRed, 1);
-        mg->Fit("Fit_full_d", "R");
+        mg->Fit("Fit_full_d", "Q");
+        double chi2_ndf_full_d = Fit_full_d->GetChisquare()/Fit_full_d->GetNDF();
+        double grad_full_d = Fit_full_d->GetParameter(1);
+        double grad_full_d_Err = Fit_full_d->GetParError(1);
+        double Deadlayer_full_d = -grad_full_d/AlphaEnergyLoss * 1e3; // calculate dead layer in micrometer
+        double Deadlayer_full_d_err = grad_full_d_Err/AlphaEnergyLoss * 1e3; // calculate dead layer in micrometer
 
-        TLegend* leg = new TLegend(0.5, 0.74, 0.7, 0.88);
-        leg->AddEntry(EvsInvCosTheta_1, "Array Distance = 80.02 mm", "pe");
-        leg->AddEntry(EvsInvCosTheta_2, "Array Distance = 205.02 mm", "pe");
-        leg->AddEntry(Fit_d1, "Array Distance = 80.02 mm, fit ", "l");
-        leg->AddEntry(Fit_d2, "Array Distance = 205.02 mm, fit ", "l");
-        leg->AddEntry(Fit_full_d, "Combined fit", "l");
+        TLegend* leg = new TLegend(0.15, 0.2, 0.35, 0.44);
+        leg->AddEntry(EvsInvCosTheta_1, "Array distance 1: 80.02 mm", "pe");
+        leg->AddEntry(EvsInvCosTheta_2, "Array distance 2: 205.02 mm", "pe");
+        leg->AddEntry(Fit_d1, Form("Array distance 1 fit, #chi^{2} = %.1f, d_{0} = %.3f #pm %.3f #mum", chi2_ndf_d1, Deadlayer_d1, Deadlayer_d1_err), "l");
+        leg->AddEntry(Fit_d2, Form("Array distance 2 fit, #chi^{2} = %.1f, d_{0} = %.3f #pm %.3f #mum", chi2_ndf_d2, Deadlayer_d2, Deadlayer_d2_err), "l");
+        leg->AddEntry(Fit_full_d, Form("Combined distance fit, #chi^{2} = %.1f, d_{0} = %.3f #pm %.3f #mum", chi2_ndf_full_d, Deadlayer_full_d, Deadlayer_full_d_err), "l");
         leg->SetBorderSize(0);
         leg->SetTextSize(0.03); // Adjust the text size to your preference
         leg->SetFillStyle(0); // Remove the box fill
         leg->Draw();
 
         // Save the plot for each peak
-        canvas->SaveAs(Form("Peak_%zu_vs_InvCosTheta.png", peakIndex + 1));
+        canvas->SaveAs(Form("%s/Peak_%zu_vs_InvCosTheta.png", plotDirectory.c_str(),peakIndex + 1));
 
         // Delete the canvas and graph to avoid memory leaks
         delete canvas;
         delete EvsInvCosTheta_1;
+        delete EvsInvCosTheta_2;
+        delete leg;
+        delete Fit_d1;
+        delete Fit_d2;
+        delete Fit_full_d;
     }
 }
 
 
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 // Some extra functions of use 
