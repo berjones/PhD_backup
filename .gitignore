@@ -1,6 +1,9 @@
 *.root 
 /miniball
 /Calcium_2023
+/media/ben/TOSHIBA_brj/alphas_field_off/data
+/media/ben/TOSHIBA_brj/pulser_walk_november/data
+/media/ben/TOSHIBA_brj/pulser_walk_august/data
 my_data/
 *test*
 *.log
